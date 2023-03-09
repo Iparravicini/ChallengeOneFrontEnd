@@ -1,0 +1,21 @@
+.academic{
+    background: #EAF2FD;
+}
+
+.academic__title{
+    text-align: center;
+    padding: 20px;
+}
+
+.academic__courses__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.academic__courses__list{
+    margin: 20px;
+    padding: 0;
+}

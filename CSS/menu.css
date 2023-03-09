@@ -1,3 +1,21 @@
-section.menu{
-    
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu__header{
+    display: flex;
+    margin: 20px auto 20px 15px;
+}
+
+.menu__title{
+    margin: auto 15px;
+}
+
+.menu__list{
+    display: none;
+}
+
+.menu__list__item__contacto{
+    margin: 0 15px;
 }
