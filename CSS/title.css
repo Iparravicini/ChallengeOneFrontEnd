@@ -29,3 +29,33 @@
 .title__network__item{
     margin: 2px;
 }
+
+@media screen and (min-width:768px) {
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin: 2rem;
+    }
+
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title__profile{
+        max-width: 15%;
+    }
+
+    .title__network{
+        justify-content: flex-start;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .title__network__item{
+        margin-left: 0;
+        margin-right: 50px;
+    }
+}
